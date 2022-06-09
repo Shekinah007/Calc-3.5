@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Calc-3.5/static/css/main.1c05c54c.css",
-    "main.js": "/Calc-3.5/static/js/main.4d7ef06e.js",
+    "main.css": "/Calc-3.5/static/css/main.699d1cc0.css",
+    "main.js": "/Calc-3.5/static/js/main.4ea08547.js",
     "static/js/787.28cb0dcd.chunk.js": "/Calc-3.5/static/js/787.28cb0dcd.chunk.js",
     "static/media/mixkit-hard-pop-click-2364.wav": "/Calc-3.5/static/media/mixkit-hard-pop-click-2364.90329493ac50795f809f.wav",
     "service-worker.js": "/Calc-3.5/service-worker.js",
@@ -14,12 +14,12 @@
     "static/media/dark_mode_black_24dp.svg": "/Calc-3.5/static/media/dark_mode_black_24dp.fdb51e7c4ec36ce7cfc7ad965dfe4ab0.svg",
     "static/media/dark_mode_white_24dp.svg": "/Calc-3.5/static/media/dark_mode_white_24dp.a76aff9a222a4780505e689c7257d6e5.svg",
     "static/media/volume_up.svg": "/Calc-3.5/static/media/volume_up.4da87911d9476779e726eceadeedaeb5.svg",
-    "main.1c05c54c.css.map": "/Calc-3.5/static/css/main.1c05c54c.css.map",
-    "main.4d7ef06e.js.map": "/Calc-3.5/static/js/main.4d7ef06e.js.map",
+    "main.699d1cc0.css.map": "/Calc-3.5/static/css/main.699d1cc0.css.map",
+    "main.4ea08547.js.map": "/Calc-3.5/static/js/main.4ea08547.js.map",
     "787.28cb0dcd.chunk.js.map": "/Calc-3.5/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c05c54c.css",
-    "static/js/main.4d7ef06e.js"
+    "static/css/main.699d1cc0.css",
+    "static/js/main.4ea08547.js"
   ]
 }
