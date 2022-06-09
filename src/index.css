@@ -1,0 +1,181 @@
+:root {
+
+  --inset1:  ash;
+  --mainColour: white;
+  --mainColourDark: rgb(44, 42, 42);
+  --insetDark: black;
+
+  --screenColour: rgb(92, 112, 92);
+  --screenDark: rgb(13, 14, 13);
+  
+  --textDark: rgb(250, 250, 250);
+  --textWhite: rgb(17, 19, 17);
+
+  --buttonPress: grey;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./DIGITALDREAMFATSKEW.ttf)
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  background-color: var(--mainColour);
+  margin: auto;
+  width: 100vmin;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+
+.screenInput {
+  font-size: 20px;
+  resize: none;
+  width: 100%; 
+  max-width: 100%;
+  font-family: myFirstFont;
+  font-weight: 600;
+  line-height: 1.5;
+  height: 25vh;
+  background-color: var(--screenColor);
+  border-radius: 5px;
+  margin-bottom: 3vh;
+  margin-top: 1vh;
+  padding: 15px;
+  border: 2px inset black;
+  box-sizing: border-box;
+  outline: none;
+box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+}
+
+.screens {
+  width: 92vw;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.text {
+  width: 92vw;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline: none;
+  height: 4vh;
+}
+
+#time {
+  text-align: right;
+  font-family: myFirstFont;
+  resize: none;
+  max-width: 100px;
+  height: 1rem;
+  font-size: 90%;
+  text-align: center;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 2rem;
+  font-weight: 500;
+  background-color: var(--screenColour);
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 1px 0px 2px 1px rgba(0,0,0,0.75) inset;
+}
+.text-child-left {
+  padding: 1px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  height: inherit;
+  /* border-radius: 150px;
+background: #2d2a2a;
+box-shadow: inset 23px 23px 46px #242222,
+            inset -23px -23px 46px #363232; */
+            border-radius: 150px;
+background: #4b4141;
+background: #b34040;
+box-shadow: inset 5px 13px 5px #5f2323,
+            inset -5px -13px 5px #c55a5a;
+
+}
+.text-child-left img {
+  /* border-radius: 150px;
+  background: #4b5961;
+  box-shadow: inset 23px 23px 46px #404b52,
+              inset -23px -23px 46px #4e5d61; */
+}
+.themeIcon {
+  /* max-height: 5vh; */
+  /* object-fit: auto; */
+  margin-right: 10px;
+}
+
+
+.Buttons {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  gap: 2%;
+  justify-content: center; 
+  /* align-content: center;  */
+  height: 60%;
+  width: 92vw;
+  max-width: 90%;
+}
+.buttonContainer {
+  background-color: var(--inset1);
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  border-radius: 20%;
+  box-shadow: inset 5px 5px 10px var(--inset1)
+            inset -5px -5px 10px #25a9f5;
+ display: flex;
+ justify-content: center;
+ align-items: center;    
+}
+
+.buttonContainer button {
+  transition: 0s;
+  font-size: 3.2vh;
+  font-weight: 700;
+  height: 90%;
+  width: 90%;
+  /* margin: 0vh; */
+  border: none;
+  border-radius: 20%;
+  background-color: var(--mainColour);
+  box-shadow:  1px 1px 2px #0a1920,
+               -1px -1px 2px #112431;
+      
+  }
+  .buttonContainer button:active {
+    background-color: var(--buttonPress);
+  }
+
+.coloured {
+  color: rgb(226, 58, 66) !important;
+}
+
+@media (min-width: 768px) {
+  .App{
+  
+  }
+}
