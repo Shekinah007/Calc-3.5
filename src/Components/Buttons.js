@@ -84,8 +84,9 @@ export default function Buttons({ theme, time, changeTheme, isSoundOn }) {
     if (input === "") {
       return;
     }
-
-    setInput((prevState) => eval(prevState).toString());
+    let stringedInput = input.toString().replace(/[^-()\d/*+.]/g, "");
+    setInput((prevState) => Function("return " + stringedInput)());
+    // setInput((prevState) => eval(prevState).toString());
   }
   function del() {
     // isSoundOn && callMySound(equals);
